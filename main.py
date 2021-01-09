@@ -10,8 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # input = input_data()
-    # print(input.columns.values)
+    
     data = pd.read_csv('original.csv')
     input = data.dropna()
     y = input['default']
