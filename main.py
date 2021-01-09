@@ -1,4 +1,3 @@
-from Dataset import  input_data
 import pandas as pd
 from model import  train,predict
 from sklearn.model_selection import train_test_split
