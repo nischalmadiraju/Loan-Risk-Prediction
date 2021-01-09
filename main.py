@@ -3,14 +3,9 @@ from model import  train,predict
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    
+
     data = pd.read_csv('original.csv')
     input = data.dropna()
     y = input['default']
